@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar{
+    background-color: orange; 
+    padding-left:20px; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1;
+}
+
+.text{
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text2{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-left: 60px;
+    color:rgba(0, 0, 0, 0.425);
+}
+
+h4{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+hr{
+    width: 80px;
+    border-top: 6px solid rgb(255, 94, 0);
+}
+.moneda{
+    margin-top: -40px;
+    margin-left: 30px;
+}

@@ -1,0 +1,65 @@
+[
+{
+    "precio": "100",
+    "id": 1,
+    "title": "El Rey",
+    "desc":"Orden de 5 tacos campechanos",
+    "thumbnailUrl": "img/p1.jpg"
+  },
+  {
+    "precio": "90",
+    "id": 2,
+    "title": "Foraneo",
+    "desc":"Orden de 5 tacos de chorizo",
+    "thumbnailUrl": "img/p2.jpg"
+  },
+  {
+    "precio": "100",
+    "id": 3,
+    "title": "Callejero",
+    "desc":"Orden de 5 tacos de suadero",
+    "thumbnailUrl": "img/p3.jpg"
+  },
+  {
+    "precio": "85",
+    "id": 4,
+    "title": "3 VolCarnes",
+    "desc":"Tortilla de maíz, queso derretido y carne (Rey, foraneo o callejero)",
+    "thumbnailUrl": "img/p4.jpg"
+  },
+  {
+    "precio": "90",
+    "id": 5,
+    "title": "Tortas",
+    "desc":"Deliciosa torta con la carne que tu prefieras (Rey, foraneo o callejero)",
+    "thumbnailUrl": "img/p5.jpg"
+  },
+  {
+    "precio": "60",
+    "id": 6,
+    "title": "Gringa",
+    "desc":"Tortillas de harina, queso derretido y carne (Rey, foraneo o callejero)",
+    "thumbnailUrl": "img/p6.jpg"
+  },
+  {
+    "precio": "25",
+    "id": 7,
+    "title": "Flan casero",
+    "desc":"Disfruta del sabor de hogar con nuestro flan napolitano",
+    "thumbnailUrl": "img/p7.jpg"
+  },
+  {
+    "precio": "25",
+    "id": 8,
+    "title": "¿Team Horchata o Jamaica?",
+    "desc":"Acompaña tus platillos con agua de horchata o jamaica 1Litro",
+    "thumbnailUrl": "img/p8.jpg"
+  },
+  {
+    "precio": "75",
+    "id": 9,
+    "title": "Guacamole",
+    "desc":"Disfruta de nuestro guacamole hecho al momento",
+    "thumbnailUrl": "img/p9.jpg"
+  }
+]
