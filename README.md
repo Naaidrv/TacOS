@@ -1,5 +1,5 @@
 # 🌮 TacOS 🌮
-_Es una página web de TacOS, donde se pretendo mostrar a el usuario su menú, permitiendole agregar los productos que desee a su carrito. 😋_
+_Es una página web de TacOS, donde se pretende mostrar a el usuario su menú, permitiendole agregar los productos que desee a su carrito. 😋_
 ## 🛠️ Construido con 🛠️
 
 _Esta página no funcionaría sin la ayuda de_
