@@ -54,5 +54,12 @@
     "title": "¿Team Horchata o Jamaica?",
     "desc":"Acompaña tus platillos con agua de horchata o jamaica 1Litro",
     "thumbnailUrl": "img/p8.jpg"
+  },
+  {
+    "precio": "75",
+    "id": 9,
+    "title": "Guacamole",
+    "desc":"Disfruta de nuestro guacamole hecho al momento",
+    "thumbnailUrl": "img/p9.jpg"
   }
 ]
