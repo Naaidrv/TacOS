@@ -43,3 +43,30 @@ hr{
     margin-top: -40px;
     margin-left: 30px;
 }
+.pie{
+    width: 100%;
+    height: 160px;
+    background-color: orange; 
+    position: sticky; 
+}
+.copy{
+    padding-top: 20px;
+    color: azure;
+    text-align: center;
+}
+.desp{
+    margin-top: 1px;
+    color: azure;
+    text-align: center;
+}
+
+.desp a{
+    color: azure;
+    text-decoration: none;
+}
+.icons{
+    color: azure;
+    text-align: center;
+    font-size: 30px;   
+    text-decoration: none;
+}

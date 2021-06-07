@@ -24,7 +24,7 @@
     "precio": "85",
     "id": 4,
     "title": "3 VolCarnes",
-    "desc":"Tortilla de maíz, queso derretido y carne (Rey, foraneo o callejero)",
+    "desc":"Tortilla de maíz, queso derretido y Rey, foraneo o callejero",
     "thumbnailUrl": "img/p4.jpg"
   },
   {
@@ -54,12 +54,5 @@
     "title": "¿Team Horchata o Jamaica?",
     "desc":"Acompaña tus platillos con agua de horchata o jamaica 1Litro",
     "thumbnailUrl": "img/p8.jpg"
-  },
-  {
-    "precio": "75",
-    "id": 9,
-    "title": "Guacamole",
-    "desc":"Disfruta de nuestro guacamole hecho al momento",
-    "thumbnailUrl": "img/p9.jpg"
   }
 ]
