@@ -42,6 +42,14 @@
     background-color: white;
 }
 
+.welcome{
+    display: none;
+}
+
+.carousel{
+    display: block;
+}
+
 .text{
     font-size: 20px;
     text-align: justify;
@@ -141,5 +149,32 @@ hr{
 
     .card{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:760px){
+    .carousel{
+        display: none;
+    }
+
+    .welcome{
+        display: flex;
+        font-size: 280px;
+        margin-left: 10%;
+        transform: translateY(180%);
+    }
+}
+
+@media only screen and (max-width:390px){
+    .carousel{
+        display: none;
+    }
+
+    .welcome h1{
+        display: flex;
+        font-size: 25px;
+        position: sticky;
+        margin-top: 10px;
+        color: black;
     }
 }
