@@ -3,18 +3,43 @@
     padding: 0;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+    position: sticky;
+    width:100%;
+    border: none;
+    margin-top: -4px;
+    float: none;
+    /*border-radius: 20px;
+    display: -webkit-box;
+    /display: -ms-flexbox;*/
+    display: inline-flex;
+    list-style: none;
+    background: orange;
+    /*border:5px solid #000;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.836);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 20px 40px 40px #00000033;*/
+    padding: 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    margin-left: 50px;
+}
+
 .navbar-brand{
     color: white;
     font-size: 30px;
     font-family: 'Lobster', cursive;
 }
 
-.navbar{
-    background-color: orange; 
-    padding-left:20px; 
-    position: sticky; 
-    top: 0; 
-    z-index: 1;
+.container-fluid .navbar-toggler{
+    background-color: white;
 }
 
 .text{
@@ -71,6 +96,44 @@ hr{
     font-size: 30px;   
     text-decoration: none;
 }
-::-webkit-scrollbar{
-    display: none;
+
+.carousel-item h5{
+    transform: translateY(-140%);
+    position: sticky;
+    font-size: 110px;
+    color: white;
+}
+
+.carousel-item p{
+    
+    margin-bottom: 86px;
+    position: sticky;
+    font-size: 20px;
+    color: white;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:1140px){
+
+    .carousel-item h5{
+        top:650px;
+        color: yellowgreen;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+
+    .carousel-item h5{
+        position: sticky;
+        font-size: 90px;
+        color: white;
+    }
+
+    .carousel-caption p{
+        top: 32px;
+        font-size: 16px;
+        color: white;
+    }
 }
