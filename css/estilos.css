@@ -122,6 +122,14 @@ hr{
     color: white;
 }
 
+.col-8{
+    width: 50%;
+}
+
+.col-4{
+    width: 50%;
+}
+
 /* Responsive */
 
 @media only screen and (max-width:1140px){
