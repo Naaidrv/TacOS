@@ -8,7 +8,7 @@
 }
 
 .navbar{
-    position: sticky;
+    position: fixed;
     width:100%;
     border: none;
     margin-top: -4px;
@@ -38,9 +38,55 @@
     font-family: 'Lobster', cursive;
 }
 
-.container-fluid .navbar-toggler{
-    background-color: white;
+.navbar-brand:hover{
+    color: #fff;
 }
+
+.navbar-toggler{
+    border-color: transparent;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+    transition: all 0.35s ease-out;
+    transform-origin: center left;
+  }
+  
+  .navbar-toggler span:nth-child(1) {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  
+  .navbar-toggler span:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .navbar-toggler span:nth-child(3) {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  
+  .navbar-toggler span:nth-child(1) {
+    margin-top: 0.3em;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translate(15%, -33%) rotate(45deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translate(15%, 33%) rotate(-45deg);
+  }
 
 .welcome{
     display: none;
@@ -155,6 +201,7 @@ iframe{
 
 @media only screen and (max-width:768px){
 
+
     .carousel-item h5{
         position: sticky;
         font-size: 90px;
@@ -186,6 +233,19 @@ iframe{
 }
 
 @media only screen and (max-width:540px) {
+
+    .navbar-collapse{
+        height: 93vh;
+        transition: all 0.35s ease-in-out;
+        /*background-color: yellowgreen;*/
+      }
+    
+    .navbar-collapse, a{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }    
     
 .col-8, .g-3{
     width: 100%;
