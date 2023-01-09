@@ -153,6 +153,11 @@ hr{
     text-decoration: none;
 }
 
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+
 .carousel-item h5{
     transform: translateY(-140%);
     position: sticky;
