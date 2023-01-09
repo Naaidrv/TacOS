@@ -187,9 +187,15 @@ iframe{
 
 @media only screen and (max-width:540px) {
     
-.col-8, .form-control{
+.col-8, .g-3{
     width: 100%;
 }
+
+#floatingTextarea2{
+    width: 98%;
+    height: 150px;
+}
+
 
 .col-4, iframe{
     width: 100%;
